@@ -1,10 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import { Head } from './components/Head.js'
+import { Body } from './components/Body.js' 
 
 function App() {
   return (
     <>
-    	
+    	< Head />
+      < Body />
     </>
   );
 }
