@@ -1,0 +1,24 @@
+.card2{
+    width: 80%;
+    margin: auto;
+    padding: 10px;    
+}
+.card2 img{
+    width:100%;
+    border-bottom-right-radius:30% ;
+}
+.sec-3{
+    width: 100%;
+    padding: 30px 10px ;
+    background: gold;
+}
+#img2{
+    width:100%;
+    margin : 15vh 0px ;
+}
+.footer{
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 8vh;
+}

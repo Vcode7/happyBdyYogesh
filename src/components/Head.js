@@ -1,5 +1,6 @@
 import React from 'react'
 import './head.css'
+import bck from './bck.mp4'
 
 export const Head = () => {
     return (
@@ -28,9 +29,16 @@ export const Head = () => {
                         <span>c</span>
                         <span>h</span>
                         <span>u</span>
-                        </div>
+                    </div>
+                </div>
+                <div className="bck-video">
+				
+                <video muted autoplay='' loop >
+                    <sorce src={bck} type="video/mp4" />
+                </video>
                 </div>
             </div>
+
         </>
     )
 }
