@@ -5,6 +5,7 @@ export const Sup = () => {
 
     return (
         <>
+        <h1>click down</h1>
             <div className="modal" tabindex="-1">
                 <div className="modal-dialog">
                     <div className="modal-content">
