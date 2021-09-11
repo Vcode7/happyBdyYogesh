@@ -32,10 +32,13 @@ export const Head = () => {
                     </div>
                 </div>
                 <div className="bck-video">
-				
-                <video muted autoplay='' loop >
-                    <sorce src={bck} type="video/mp4" />
-                </video>
+					<video 
+                    	autoPlay
+                        loop
+                        muted
+                    >
+                        <sorce src={bck} type="video/mp4"/>
+                    </video>
                 </div>
             </div>
 

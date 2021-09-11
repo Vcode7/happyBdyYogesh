@@ -1,15 +1,22 @@
 .card2{
-    width: 80%;
+    width: 90%;
     margin: auto;
-    padding: 10px;    
+    padding: 10vw;    
+    border: white 2px solid;
+    border-radius:10px;
+    text-align: center;
+}
+.card2-para{
+    color: white;
+    font-size: 1rem;
+    padding-top: 20px;
 }
 .card2 img{
     width:100%;
-    border-bottom-right-radius:30% ;
 }
 .sec-3{
     width: 100%;
-    padding: 30px 10px ;
+    padding: 30px 20px ;
     background: gold;
 }
 #img2{

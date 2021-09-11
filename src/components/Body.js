@@ -10,30 +10,30 @@ export const Body = () => {
     let countnum = 0;
     function handleClick(n) {
         let img = document.getElementById('img')
-			
+
         if (countnum === 0) {
             img.style.background = `url(${y2})no-repeat center center/cover`
         }
-        else if(countnum === 1) {
+        else if (countnum === 1) {
             img.style.background = `url(${y3})no-repeat center center/cover`
         }
-        else if(countnum === 2) {
+        else if (countnum === 2) {
             img.style.background = `url(${y4})no-repeat center center/cover`
         }
-        else if(countnum === 3) {
+        else if (countnum === 3) {
             img.style.background = `url(${y6})no-repeat center center/cover`
         }
-        else if(countnum === 4) {
+        else if (countnum === 4) {
             img.style.background = `url(${y7})no-repeat center center/cover`
         }
-        countnum = countnum +1;
-        if(countnum < 0){
+        countnum = countnum + 1;
+        if (countnum < 0) {
             countnum = 4;
-    
-            }
-        if(countnum > 4 ){
+
+        }
+        if (countnum > 4) {
             countnum = 0;
-        
+
         }
     }
     return (
@@ -41,11 +41,12 @@ export const Body = () => {
             <div className="section">
                 <div className="wish1">
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque ullam eveniet dignissimos vel. Consequuntur nobis quo natus cupiditate minus autem repellendus doloremque? Rem, dicta tempora. Consectetur dignissimos dolore inventore nulla vel ab at porro cum exercitationem nesciunt molestias unde aut aliquam eum beatae aliquid magnam et iusto hic modi voluptatem, veniam corporis earum! Quibusdam perspiciatis maxime soluta? Rerum dolor dicta nemo ratione, soluta quae quam impedit est itaque in consectetur tempore assumenda ipsam quidem. Numquam, quos? Excepturi nihil laborum necessitatibus blanditiis magnam consectetur enim temporibus officia corporis, numquam dolorem dignissimos iure natus velit accusamus unde? Quod quos commodi dolore!
-                    </p>
+                        Hope your special day is filled with love and happiness, and that this year is your best year yet,I’m so privileged to be a part of your life,
+                        You’ve always been kind and thoughtful, with a loving heart. You’re thought of every single day, but especially today.I want to wish you all the love and happiness in the world, all of which you deserve. Happy birthday my bestfriend!
+</p>
                 </div>
             </div>
-
+            <hr id="hr" />
             <div className="gallery">
                 <div className="img" id="img">
                     <button onClick={() => handleClick(-1)} >
@@ -63,9 +64,9 @@ export const Body = () => {
             </div>
             <div className="section-2">
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque ullam eveniet dignissimos vel. Consequuntur nobis quo natus cupiditate minus autem repellendus doloremque? Rem, dicta tempora. Consectetur dignissimos dolore inventore nulla vel ab at porro cum exercitationem nesciunt molestias unde aut aliquam eum beatae aliquid magnam et iusto hic modi voluptatem, veniam corporis earum! Quibusdam perspiciatis maxime soluta? Rerum dolor dicta nemo ratione, soluta quae quam impedit est itaque in consectetur tempore assumenda ipsam quidem. Numquam, quos? Excepturi nihil laborum necessitatibus blanditiis magnam consectetur enim temporibus officia corporis, numquam dolorem dignissimos iure natus velit accusamus unde? Quod quos commodi dolore!
-
+                    True friends are like diamonds—bright, beautiful, valuable, and always in style.
                 </p>
+
             </div>
         </>
     )
