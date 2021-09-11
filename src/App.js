@@ -1,7 +1,8 @@
 import './App.css';
-import { Head } from './components/Head.js'
-import { Body } from './components/Body.js' 
-import { Sup } from './components/Sup.js' 
+import { Head } from './components/Head'
+import { Body } from './components/Body' 
+import { Sup } from './components/Sup' 
+import { End } from './components/End' 
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
     	< Head />
       < Body />
       < Sup />
+      < End />
     </>
   );
 }
