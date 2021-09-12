@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/happyBdyYogesh/static/css/main.19736a79.chunk.css",
+    "main.css": "/happyBdyYogesh/static/css/main.e127bd8f.chunk.css",
     "main.js": "/happyBdyYogesh/static/js/main.58cb55fa.chunk.js",
     "main.js.map": "/happyBdyYogesh/static/js/main.58cb55fa.chunk.js.map",
     "runtime-main.js": "/happyBdyYogesh/static/js/runtime-main.b971d595.js",
@@ -10,7 +10,7 @@
     "static/js/3.86f1921e.chunk.js": "/happyBdyYogesh/static/js/3.86f1921e.chunk.js",
     "static/js/3.86f1921e.chunk.js.map": "/happyBdyYogesh/static/js/3.86f1921e.chunk.js.map",
     "index.html": "/happyBdyYogesh/index.html",
-    "static/css/main.19736a79.chunk.css.map": "/happyBdyYogesh/static/css/main.19736a79.chunk.css.map",
+    "static/css/main.e127bd8f.chunk.css.map": "/happyBdyYogesh/static/css/main.e127bd8f.chunk.css.map",
     "static/js/2.78e99477.chunk.js.LICENSE.txt": "/happyBdyYogesh/static/js/2.78e99477.chunk.js.LICENSE.txt",
     "static/media/b_day_fbr31.72b3f6f2.png": "/happyBdyYogesh/static/media/b_day_fbr31.72b3f6f2.png",
     "static/media/bck.f26cf7f5.mp4": "/happyBdyYogesh/static/media/bck.f26cf7f5.mp4",
@@ -26,7 +26,7 @@
   "entrypoints": [
     "static/js/runtime-main.b971d595.js",
     "static/js/2.78e99477.chunk.js",
-    "static/css/main.19736a79.chunk.css",
+    "static/css/main.e127bd8f.chunk.css",
     "static/js/main.58cb55fa.chunk.js"
   ]
 }
